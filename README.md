@@ -29,6 +29,12 @@ conda activate <my-env>
 python newtax.py "O=C([O-])CCC(=O)C(=O)[O-].NC(CC(=O)[O-])C(=O)O>>O=C([O-])CC(=O)C(=O)[O-].NC(CCC(=O)[O-])C(=O)O" data out -host "83333,90370,1236,590"
 ```
 
+Another example, based on the lycopene pathway
+```sh
+conda activate <my-env>
+python newtax.py '[H]OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C([H])=C(C([H])([H])[H])C([H])([H])C([H])([H])C([H])=C(C([H])([H])[H])C([H])([H])C([H])([H])C([H])=C(C([H])([H])[H])C([H])([H])C([H])([H])C([H])=C(C([H])([H])[H])C([H])([H])[H].O=P(O)(O)OP(=O)(O)O.O=P(O)(O)OP(=O)(O)O.O=P(O)(O)OP(=O)(O)O>>[H]OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C([H])([H])C(=C([H])[H])C([H])([H])[H].[H]OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C([H])=C(C([H])([H])[H])C([H])([H])[H]' data out -host "553"
+```
+
 ## Help
 
 ```
